@@ -109,10 +109,10 @@ export const Experience = () => {
                               {getIcon(exp.type)}
                             </div>
                             <div className="flex-1">
-                              <h3 className="text-2xl font-semibold text-foreground group-hover:text-primary transition-colors duration-300">
+                              <h3 className="text-2xl font-semibold text-foreground group-hover:text-primary transition-colors duration-300 text-left">
                                 {exp.title}
                               </h3>
-                              <h4 className="text-xl font-medium text-foreground/90 mt-1">
+                              <h4 className="text-xl font-medium text-foreground/90 mt-1 text-left">
                                 {exp.company}
                               </h4>
                             </div>

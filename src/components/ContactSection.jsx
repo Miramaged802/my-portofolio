@@ -7,6 +7,7 @@ import {
   Phone,
   Send,
   Facebook,
+
   MessageSquare,
   User,
 } from "lucide-react";
@@ -44,7 +45,7 @@ export const ContactSection = () => {
     toast({
       title: "Message Prepared!",
       description:
-        "Your email client should open with the message pre-filled. Please send it from there.",
+        "hallo, I will get back to you soon. Thank you for your message ❤️❤️",
       variant: "success",
     });
 
